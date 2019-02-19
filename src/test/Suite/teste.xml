@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite" verbose="1" parallel="tests" thread-count="2" configfailurepolicy="continue" >
+    <listeners>
+        <listener class-name="org.codacy.TestListener"/>
+        <listener class-name="org.codacy.AnnotationTransformer"/>
+    </listeners>
+    <parameter name="environment" value="QA"></parameter>
+    <parameter name="url" value="http://localhost:16007/"/>
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="Validate HomePage" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="org.codacy.TC_11_ValidatePullRequetsPage"></class>
+        </classes>
+    </test>
+</suite>
