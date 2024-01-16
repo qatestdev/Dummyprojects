@@ -99,6 +99,20 @@ public class Dashboard extends BasePage {
 
     }
 
+public void IssuesBreakDownContainer() {
+
+        getElementWhenVisible(By.id(ISSUESBREAKDOWN_TITLE)).isDisplayed();
+        getElementWhenVisible(By.id(ISSUESBREAKDOWN_CONTAINER)).isDisplayed();
+
+    }
+
+public void IssuesBreakDownContainer() {
+
+        getElementWhenVisible(By.id(ISSUESBREAKDOWN_TITLE)).isDisplayed();
+        getElementWhenVisible(By.id(ISSUESBREAKDOWN_CONTAINER)).isDisplayed();
+
+    }
+
     public void coverageContainer() {
 
         getElementWhenVisible(By.id(COVERAGE_TITLE)).isDisplayed();
