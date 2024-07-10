@@ -46,7 +46,7 @@ public class Dashboard extends BasePage {
     private static final String LINES_OF_CODE_CONTAINER = "sidebar_chart_lines_of_code";
     private static final String TECHNICAL_DEBT_CONTAINER = "sidebar_chart_technical_debt";
     private static final String CODE_DASHBOARD = "//*[contains(text(),'Code dashboard')]";
-     private static final String TECHNICAL_DEBT_CONTAINER = "sidebar_chart_technical_debt";
+    private static final String TECHNICAL_DEBT_CONTAINER = "sidebar_chart_technical_debt";
     private static final String CODE_DASHBOARD = "//*[contains(text(),'Code dashboard')]";
 
     public Dashboard(RemoteWebDriver driver, Environment env) {
